@@ -18,25 +18,12 @@
 <main>
 <h2>Practice</h2>
 <pre>
+
 <?php
-for($i = 1; $i <= 365; $i ++){
-  $date = strtotime('+' . $i . 'day');
-  print(date('n/j(D)', $date));
-  print "\n";
-}
+$week_name = ['日','月','火','水','木','金','土'];
+print ($week_name[date('w')]);  //添字(index)にdateの値を代入
 ?>
-
-<!-- strtotime(string to timestamp)文字列で指定したものをtimestampに変換する -->
-
-<!-- {}ではなく: endforでも同義
-for(. . .):
-  . . .
-endfor; -->
-
-<!-- {}ではなく: endwhileでも同義
-while(. . .):
-  . . .
-endwhile;  -->
+<!-- [] <-ブラケットと読む -->
 
 </pre>
 </main>
