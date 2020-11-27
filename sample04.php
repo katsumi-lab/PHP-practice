@@ -21,6 +21,9 @@
 <?php
 $today = new DateTime();
 print($today->format('G時 i分 s秒'));
+
+// print(ファンクション) $today(インスタンス) format(メソッド)
+
 ?>
 </pre>
 </main>

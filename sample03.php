@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-// date_default_timezone_set('Asia/Tokyo');
+// date_default_timezone_set('Asia/Tokyo'); <- MAMPで設定している。レンタルサーバーなど環境設定できない場合は記述する
 print('現在は'.date('G時 i分 s秒').'です');
 ?>
 </pre>
